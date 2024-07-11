@@ -38,3 +38,10 @@ print(is_prime(313))
 
 print(is_prime(351))
 
+
+
+
+print(len('it\'s ok'))
+
+
+

@@ -1,0 +1,21 @@
+#IS_PRIME FUNCTION 
+
+def is_prime(n):
+    """Return True if n is a prime number, otherwise return False."""
+    if n == 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+#Considerinng range of nimers from 100 to 151
+
+
+count_prime = 0
+
+for n in range (100, 152):
+	if is_prime(n):
+		count_prime += 1
+
+print(count_prime)

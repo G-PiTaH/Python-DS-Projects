@@ -19,3 +19,22 @@ for n in range (100, 152):
 		count_prime += 1
 
 print(count_prime)
+
+#check whether the number 123 is prime
+
+print(is_prime(123))
+
+#check whether the number 827 is prime
+
+print(is_prime(827))
+
+#which of the following numbers is prime: 326, 303, 313, or 351?
+
+print(is_prime(326))
+
+print(is_prime(303))
+
+print(is_prime(313))
+
+print(is_prime(351))
+
